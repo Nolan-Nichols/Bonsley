@@ -1,0 +1,102 @@
+/*Recipe Creation stylesheet*/
+
+
+#recipe-creation-form-wrapper{
+	width:100%;
+	height:auto;
+	padding:10px;
+	
+
+}
+
+#recipe-creation-form-wrapper h1{
+	
+	font-size:24px;
+	
+	
+}
+
+#recipe-creation-form-wrapper input{
+	
+	width:100%;
+	height:35px;
+	font-size:18px;
+	margin-top:5px;
+	margin-bottom:5px;
+	display:block;
+	
+	
+}
+
+#recipe-creation-form-wrapper input[type=submit], button{
+	width:200px;
+	height:50px;
+	
+}
+
+#recipe-creation-form-wrapper textarea{
+	
+	width:100%;
+	height:450px;
+	resize:none;
+	display:block;
+	
+}
+
+
+/*This div will grow with the number of ingredients added.*/
+
+#ingredients-wrapper{
+	
+	width:100%;
+	height:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+	border:1px dotted gray;
+	padding:10px;
+	
+}
+
+#ingredients-wrapper input{
+	
+	margin-right:5px;
+	display:inline-block;
+
+}
+
+#ingredients-wrapper input[id=qty]{
+	
+	
+	width:150px;
+}
+
+#ingredients-wrapper input[id=unit]{
+	
+
+	width:150px;
+}
+
+#ingredients-wrapper input[id=ingredientName]{
+	
+	
+	width:550px;
+}
+
+#ingredients-wrapper a{
+	margin-left:5px;
+	
+}
+
+/*This div will grow with the number of ingredients added.*/
+#recipe-steps-wrapper{
+	
+	width:100%;
+	height:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block;
+	border:1px dotted gray;
+	padding:10px;
+
+}

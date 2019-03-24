@@ -1,0 +1,105 @@
+/*Preview Display for Recipe Images*/
+#images-viewport{
+	
+	width:inherit;
+	background-color:;
+	height:450px;
+	overflow-x: hidden;
+	overflow-y:scroll;
+	text-align:center;
+	
+	
+}
+
+/*Container for images*/
+.imagePreviewBoxes{
+	
+	width:300px;
+	height:200px;
+	background-color:gray;
+	display:inline-block;
+	margin:10px;
+	
+	
+}
+
+/*Renders the image to maintain a nice aspect ratio given the bounds of its parent*/
+.imagePreviewBoxes img{
+	
+	object-fit: cover;
+	object-position: 100% 0;
+	width:inherit;
+	height:inherit;	
+   
+}
+
+#recipe-content{
+	
+	padding:10px;
+	width:inherit;
+	height:auto;
+	line-height:1.6;
+
+}
+
+#recipe-content h1{
+	
+	text-align:center;
+	font-size:36px;
+}
+
+#recipe-content h2{
+	
+	text-indent: 50px;
+}
+
+#recipe-content h3{
+	
+	text-align:center;
+	font-size:12px;
+
+	
+}
+
+#recipe-content p{
+	
+	text-indent: 50px;
+	font-size:18px;
+	
+	text-align:justify;
+	
+}
+
+#recipe-ingredients-container{
+	
+	text-indent: 50px;
+	width:100%;
+	height:auto;
+	background-color:#F5F5F5;
+	border-radius:5px;
+	font-size:16px;
+	padding:10px;
+	font-weight:bold;
+	margin-bottom:10px;
+	
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

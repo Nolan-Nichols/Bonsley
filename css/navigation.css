@@ -1,0 +1,30 @@
+/*Nav bar*/
+
+.topnav {
+	
+  overflow: hidden;
+  background-color: black;
+  text-align:center;
+  height:75px;
+  line-height:35px;
+  
+}
+
+
+.topnav a {
+   
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+
+.topnav a:hover {
+	
+  background-color: white;
+  color: black;
+  
+}
