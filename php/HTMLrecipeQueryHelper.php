@@ -17,7 +17,7 @@
 					echo "<span> Created by: ". $row["username"]. "[". $row["first_name"] ."]</span>";
 					echo "<label>". $row["name"] . "</label>";
 					echo "<span>Created on: ". $row["creation_date"] ."</span>";
-					echo "<span>Recipe ID: ". $row[0] ."</span>";
+					echo "<span><a href='recipe?recipeid=$row[0]'>Recipe ID: ". $row[0] ." Click me for full Recipe Information!</a></span>";
 				echo "</div>";
 				
 			}
