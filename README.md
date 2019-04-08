@@ -6,3 +6,5 @@ Cooking is cool and sometimes I forget the ingredients that I used to make dinne
 This project utilizes a bunch of JavaScript, PHP and some Ajax and Jquery here and there.  Maybe someday I'll switch over to Node.js...
 
 Since this has been a wonderful learning process and created for the intention of being used on a private network, I would not recommend copy pasta-ing code for public use. If you do, I would highly suggest looking into further security measures.
+
+Please excuse me for commiting to the master branch so often, I get lazy. 
